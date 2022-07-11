@@ -11,6 +11,6 @@ Client = Thing calling the factory\
 Product = Object returned from factory
 
 Move creation of objects from constructor calls, using the new keyword to a method that handles creation of classes. These classes created by the factory method are called "products".\
-The factorys products should all share a common interface.\
+The factorys products should all share a common interface.
 
 This enables the client to just make a call to the factory of their choice without having to know much further implementation details. All product specific implementation should be handled by the factory.
